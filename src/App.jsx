@@ -3,7 +3,10 @@ import './App.css'
 
 function App() {
   return (
-    <PokemonCard/>
+    <div>
+      <PokemonCard/>
+    </div>
+    
   )
     
   }     
