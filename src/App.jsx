@@ -47,6 +47,7 @@ function App() {
       
       
       <Navbar 
+    setPokemonIndex={setPokemonIndex}
     prevButton = {prevButton}
     plusButton = {plusButton}
     pokemonList = {pokemonList}
