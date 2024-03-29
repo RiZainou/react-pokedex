@@ -27,6 +27,7 @@ const pokemonList = [
   {
     name: "mew",
   },
+  
 ];
 
 function App() {
