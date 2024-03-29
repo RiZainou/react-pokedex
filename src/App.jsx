@@ -2,6 +2,7 @@ import PokemonCard from "./components/PokemonCard"
 import './App.css'
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import { useEffect } from "react";
 
 const pokemonList = [
   {
@@ -33,6 +34,12 @@ const pokemonList = [
 function App() {
 
   const [pokemonIndex, setPokemonIndex] = useState(0);
+  
+  useEffect(
+    (e) => {
+    alert("hello pokemon trainer :)");
+    console.log(e);
+  }, []);
   
   const plusButton = () => {
     setPokemonIndex(pokemonIndex + 1);
